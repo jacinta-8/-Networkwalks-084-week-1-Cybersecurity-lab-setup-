@@ -156,7 +156,8 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-<img width="1366" height="691" alt="VirtualBox_kali-linux-2026 1-virtualbox-amd64_11_08_2026_00_06_50" src="https://github.com/user-attachments/assets/bffe5ed3-48c4-47e4-b436-755d54d31266" />
+
+
 
 
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
