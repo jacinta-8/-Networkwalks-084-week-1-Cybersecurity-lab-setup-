@@ -23,6 +23,9 @@
 
 ## Project Overview
 
+
+
+
 This project involves setting up a virtual cybersecurity and penetration-testing lab using VirtualBox and Kali Linux.
 
 The lab provides a controlled environment for safely practising cybersecurity techniques, including reconnaissance, network scanning, vulnerability assessment, and the use of security tools. It is designed to support repeatable experiments and hands-on learning.
@@ -32,6 +35,7 @@ A private virtual network is configured to allow additional virtual machines to 
 ---
 
 ## Objectives
+
 
 
 The main objectives of this project are to:
@@ -198,6 +202,10 @@ A consistent IP address makes it easier to document the lab and reference the Ka
 After completing the initial configuration, a VirtualBox snapshot was created.
 
 
+<img width="959" height="562" alt="Baseline snapshot" src="https://github.com/user-attachments/assets/546c011a-b3c2-4a30-b16a-147be38f8761" />
+
+
+
 
 The snapshot represents the clean baseline of the laboratory.
 
@@ -286,21 +294,21 @@ This makes it useful for building a multi-machine cybersecurity laboratory.
 
 ### 2. Virtual Machine Networking
 
-I learned how VirtualBox virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
+VirtualBox virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
 
 ### 3. Static IP Configuration
 
-I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
+How to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
 
 ### 4. VM Snapshots
 
-I learned that a clean snapshot should be created **before performing risky or experimental activities**.
+A clean snapshot should be created **before performing risky or experimental activities**.
 
 This provides a known-good recovery point for future cybersecurity exercises.
 
 ### 5. Documentation
 
-I learned that documenting commands, configuration, screenshots, problems, and solutions is an important part of a professional cybersecurity project.
+Documenting commands, configuration, screenshots, problems, and solutions is an important part of a professional cybersecurity project.
 
 ---
 
@@ -327,6 +335,6 @@ LinkedIn:(https://www.linkedin.com/in/jacinta-kawila/)
 
 ---
 
-## 📌 Project Information
+## Project Information
 
 **Program Name:** Cybersecurity at Networkwalks | **Week:** 01 | **Project:** Cybersecurity & Pentesting Lab Setup | **Repository:** GitHub
