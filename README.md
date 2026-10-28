@@ -182,7 +182,7 @@ A consistent IP address makes it easier to document the lab and reference the Ka
 
 
 
-<img width="1366" height="691" alt="VirtualBox_kali-linux-2026 1-virtualbox-amd64_11_08_2026_00_42_50" src="https://github.com/user-attachments/assets/045ee1aa-9c4f-49f5-890b-f259752d235c" />
+![Kali Linux Wired Connection](Kali%20Wired%20Connection.png)
 
 
 
@@ -244,7 +244,7 @@ One workaround used during this lab was:
 sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 ```
 
-<img width="1366" height="691" alt="VirtualBox_kali-linux-2026 1-virtualbox-amd64_11_08_2026_01_16_27" src="https://github.com/user-attachments/assets/df4c942b-d2e9-48f5-9220-e1ade50fb96a" />
+![Kali Linux Connected](kali%20connected.png)
 
 
 The network connection was then restarted/rebooted and connectivity was tested again.
