@@ -158,6 +158,8 @@ RAM: 2048 MB
 ```
 
 
+<img width="750" height="505" alt="adapter det" src="https://github.com/user-attachments/assets/94e65380-7d55-46e4-9f4a-1adcf28b2104" />
+
 
 
 
@@ -195,11 +197,7 @@ A consistent IP address makes it easier to document the lab and reference the Ka
 
 After completing the initial configuration, a VirtualBox snapshot was created.
 
-Example snapshot name:
 
-```text
-Clean Kali - Network Setup
-```
 
 The snapshot represents the clean baseline of the laboratory.
 
