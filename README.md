@@ -69,8 +69,7 @@ It can be used for activities such as:
 ## Lab Architecture
 
 
-
-<img width="1109" height="494" alt="Screenshot 2026-08-10 234811" src="https://github.com/user-attachments/assets/8ce0edd8-f3e6-4e20-9e2e-83567f1a8c08" />
+![Kali Linux Virtual Machine Main Screen](VM%20Main.png)
 
 
 
