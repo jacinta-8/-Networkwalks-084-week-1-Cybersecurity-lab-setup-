@@ -31,8 +31,8 @@ A private virtual network is configured to allow additional virtual machines to 
 
 ---
 
-
 ## Objectives
+
 
 The main objectives of this project are to:
 
