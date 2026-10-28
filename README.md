@@ -67,15 +67,12 @@ It can be used for activities such as:
 ---
 
 ## Lab Architecture
-
 ![](1-screenshot-title-image.png)
-
-
 Additional target machines can be added to the same virtual network in future projects.
 
 ---
 
-## ⚙️ Lab Configuration
+## Lab Configuration
 
 | 🧩 Component       | ⚙️ Configuration   |
 | ------------------ | ------------------  |
@@ -121,7 +118,6 @@ DHCP:         Enabled
 IPv6:         Disabled
 
 ![](2-screenshot-network-settings-1.png)
-
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
 This will allow future attacker and target VMs to communicate within the lab.
@@ -190,7 +186,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 ---
 
-# 🔎 Lab Verification
+# Lab Verification
 
 | ✅ Test                        | 🧾 Command                      | 🎯 Expected Result              |
 | ----------------------------- | ------------------------------- | ------------------------------- |
@@ -211,18 +207,17 @@ Gateway:
 10.0.0.1
 
 DNS:
-8.8.8.8
+10.0.0.1
 ```
 
 ---
 
-# 🐞 Problems Encountered & Solutions
+# Problems Encountered & Solutions
 
-Documenting problems is an important part of the project.
 
 ## Problem 1. Internet Connectivity After Static IP Configuration
 
-After manually configuring the IPv4 settings, Internet connectivity may fail depending on the Kali/NetworkManager configuration.
+After manually configuring the IPv4 settings, Internet connectivity failed.
 
 One workaround used during this lab was:
 
@@ -232,7 +227,7 @@ sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 
 The network connection was then restarted/rebooted and connectivity was tested again.
 
-> **Important:** Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an `nmcli` command.
+
 
 ---
 
@@ -254,7 +249,7 @@ After enabling virtualization, the VM started successfully.
 
 ---
 
-# 💡 What I Learned
+#  What I Learned
 
 Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
 
@@ -288,9 +283,9 @@ I learned that documenting commands, configuration, screenshots, problems, and s
 
 ---
 
-# 🔐 Security & Ethical Use
+# Security & Ethical Use
 
-This laboratory is intended strictly for education purposes only.
+This laboratory is intended strictly for training purposes only.
 
 ---
 
@@ -304,10 +299,10 @@ This laboratory is intended strictly for education purposes only.
 
 # 👤 Author
 
-**Waqas Karim**\
-Cybersecurity Professional B082
+**Jacinta Kawila**\
+Cybersecurity Analyst
 
-LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/waqaskarim/)
+LinkedIn:(https://www.linkedin.com/in/jacinta-kawila/)
 
 ---
 
