@@ -67,7 +67,15 @@ It can be used for activities such as:
 ---
 
 ## Lab Architecture
-![](1-screenshot-title-image.png)
+
+
+
+<img width="1109" height="494" alt="Screenshot 2026-08-10 234811" src="https://github.com/user-attachments/assets/8ce0edd8-f3e6-4e20-9e2e-83567f1a8c08" />
+
+
+
+
+
 Additional target machines can be added to the same virtual network in future projects.
 
 ---
@@ -117,7 +125,13 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-![](2-screenshot-network-settings-1.png)
+
+
+<img width="1366" height="768" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/e6af57e5-6774-4404-b9bd-1e33db6a3a10" />
+
+
+
+
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
 This will allow future attacker and target VMs to communicate within the lab.
@@ -143,7 +157,9 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-![](3-screenshot-kali-linux.png)
+<img width="1366" height="691" alt="VirtualBox_kali-linux-2026 1-virtualbox-amd64_11_08_2026_00_06_50" src="https://github.com/user-attachments/assets/bffe5ed3-48c4-47e4-b436-755d54d31266" />
+
+
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 
@@ -165,7 +181,11 @@ DNS: 10.0.0.1
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![](4-screenshot-kali-network-settings.png)
+
+
+<img width="1366" height="691" alt="VirtualBox_kali-linux-2026 1-virtualbox-amd64_11_08_2026_00_42_50" src="https://github.com/user-attachments/assets/045ee1aa-9c4f-49f5-890b-f259752d235c" />
+
+
 
 ---
 
@@ -225,9 +245,10 @@ One workaround used during this lab was:
 sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 ```
 
+<img width="1366" height="691" alt="VirtualBox_kali-linux-2026 1-virtualbox-amd64_11_08_2026_01_16_27" src="https://github.com/user-attachments/assets/df4c942b-d2e9-48f5-9220-e1ade50fb96a" />
+
+
 The network connection was then restarted/rebooted and connectivity was tested again.
-
-
 
 ---
 
