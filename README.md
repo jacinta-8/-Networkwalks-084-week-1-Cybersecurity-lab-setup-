@@ -126,7 +126,7 @@ IPv6:         Disabled
 
 
 
-<img width="1366" height="768" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/e6af57e5-6774-4404-b9bd-1e33db6a3a10" />
+![VirtualBox NAT Network Configuration](Natnetwork.png)
 
 
 
